@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: A propos
 background: '/img/bg-about.jpg'
 ---
  
