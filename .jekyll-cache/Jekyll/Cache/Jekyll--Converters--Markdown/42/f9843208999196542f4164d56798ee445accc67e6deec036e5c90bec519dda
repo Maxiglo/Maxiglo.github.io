@@ -1,0 +1,6 @@
+I"ï<h2 id="test-ecriture-code">Test ecriture code</h2>
+<p>Salut Ã  tous je fais un test</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print('hello world')
+</code></pre></div></div>
+:ET

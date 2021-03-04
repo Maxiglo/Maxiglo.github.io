@@ -1,0 +1,20 @@
+I"r<h2 id="test-ecriture-code">Test ecriture code</h2>
+<p>Salut à tous je fais un test</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kn">from</span> <span class="nn">statistics</span> <span class="kn">import</span> <span class="n">mean</span>
+<span class="k">def</span> <span class="nf">is_numeric</span><span class="p">(</span><span class="n">txt</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="nb">float</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+        
+<span class="k">while</span><span class="p">(</span><span class="bp">True</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">()</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">mean</span><span class="p">([</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">line</span> <span class="k">if</span> <span class="n">is_numeric</span><span class="p">(</span><span class="n">x</span><span class="p">)]),</span> <span class="s">" "</span><span class="p">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">line</span> <span class="k">if</span> <span class="n">x</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()]))</span>
+    <span class="k">except</span> <span class="nb">EOFError</span><span class="p">:</span>
+        <span class="k">break</span>
+</code></pre></div></div>
+:ET
